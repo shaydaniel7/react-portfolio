@@ -1,26 +1,25 @@
 import React from "react";
+import './Home.css';
 
 
-function Home () {
+
+function Home() {
     return (
-        <div class="mx-auto">
-        <br></br>
-        <h1>home</h1>
-        <br></br>
+        <div class="homeBackground">
+            <br /><br /><br /><br /><br /><br /><br /><br />
+            <br />
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-10"><br></br>
-                    <div class="boxed">
-                        <p>this should be the home page</p>
-                    </div>
-                </div>
-                <div class="col-md-1"></div>
+           <div />
+            <h1>Shay Daniel</h1>
+            <p class="lead"><br />
+                <a href="/Portfolio">portfolio</a> |
+                <a href="/About">about</a> |
+                <a href="/Contact">contact</a> |
+                <a href="https://drive.google.com/file/d/1M46az7g_5E_D4fAkchgApDl7N1K41d3a/view?usp=sharing">resume</a>
+            </p>
 
-            </div>
         </div>
-    </div>
+
     );
 }
 

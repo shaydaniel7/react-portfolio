@@ -1,0 +1,57 @@
+.portBackground {
+    background: url("../assets/images/desk3.png") no-repeat center fixed;
+    background-size: cover;   
+}
+
+h1 {
+    font-size: 75px;
+    color: rgb(80, 80, 80);
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;   
+}
+
+.port {
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;  
+}
+
+.porticons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+ 
+a:link {
+    color: rgb(72, 72, 73);
+}       
+a:visited {
+    color: rgb(163, 163, 163);
+}
+a:hover {
+    color: rgb(135, 166, 233);
+}
+a:active {
+    color: rgb(230, 132, 225);
+}
+
+@media screen and (max-width: 1000px) {
+    
+    h5 {
+        font-size: 17px;
+        text-align: center;
+        font-family: 'Oswald', sans-serif;   
+    }
+
+    h1 {
+        font-size: 55px;
+        font-weight: 500;
+        color: rgb(80, 80, 80);
+        text-align: center;
+        font-family: 'Oswald', sans-serif;   
+    }
+
+    }

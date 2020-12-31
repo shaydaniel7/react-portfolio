@@ -1,0 +1,120 @@
+.contactBackground {
+    background: url("../assets/images/pantone.png") no-repeat center fixed;
+    background-size: cover;
+  }
+  
+  h1 {
+    font-size: 75px;
+    font-weight: 500;
+    color: rgb(80, 80, 80);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;   
+  }
+   
+  .form-control {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding: 20px;
+    border: rgb(106, 106, 106) solid 2px;
+   }
+  
+   .btn.btn-secondary {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size:22px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+  }
+  
+  #myBtn.btn-secondary {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    margin-top: 10px; 
+  }
+  
+  /* modal info*/
+  .modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 70%; 
+    height: 70%;     
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    align-content: center;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    box-shadow: 3px 3px 3px 0px #888;
+    width: 65%; 
+  }
+  
+  .close {
+    color: #aaa;
+    font-size: 66px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color:rgb(127, 180, 136);
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 825px) {
+      
+    .form-control {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      padding: 10px;
+      border: rgb(106, 106, 106) solid 1px;
+     }
+  
+    h1 {
+        font-size: 55px;
+        font-weight: 500;
+        color: rgb(80, 80, 80);
+        text-align: center;
+        font-family: 'Oswald', sans-serif;   
+    }
+  
+    p {
+        font-size: 16px;
+        text-align: left;
+        font-family: 'Montserrat', sans-serif;
+  
+    }
+    .btn.btn-secondary {
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-size:16px;
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+      display: block;    
+    }
+    
+    #myBtn.btn-secondary {
+      color: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+      display: block;    
+    }
+  
+  }
