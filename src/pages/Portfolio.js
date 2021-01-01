@@ -1,32 +1,48 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import camera from "../assets/icons/camera.png"
 import computercopy from "../assets/icons/computercopy.png"
 import design from "../assets/icons/design.png";
 import './Portfolio.css';
+import { Card, CardDeck } from "react-bootstrap";
 
 function Portfolio() {
     return (
         <div class="portBackground">
-            <br />
+
+            <br /><br /> <br /> 
             <h1>portfolio</h1>
-            <br />
+            <br /><br />
+            <div class="row">
+               
+                    <CardDeck>
+                        <Card><a href="https://www.etsy.com/shop/ShayDaniel">
+                            <Card.Img variant="top" src={camera} className="porticons" alt="camera icon" />
+                            <Card.Body>
+                                <Card.Title><h5>photography</h5></Card.Title>
 
-            <a href="https://www.etsy.com/shop/ShayDaniel"><img src={camera} className="porticons" alt="camera icon" /></a>
-            <h5 class="port"><a href="https://www.etsy.com/shop/ShayDaniel">photography</a></h5>
+                            </Card.Body>
+                        </a>
+                        </Card>
 
+                        <Card><a href="https://shaydaniel.com">
+                            <Card.Img variant="top" src={design} className="porticons" alt="computer icon" />
+                            <Card.Body>
+                                <Card.Title><h5>design</h5></Card.Title>
 
-            <a href="https://shaydaniel.com" ><img src={design} className="porticons" alt="computer icon" /></a>
-            <h5 class="port"><a href="https://shaydaniel.com">graphic design</a></h5>
+                            </Card.Body>
+                        </a>
+                        </Card>
 
-
-            <img src={computercopy} className="porticons" alt="computer icon" />
-            <h5 class="port"><a href="/Projects">projects</a></h5>
-
-            <br />
-        </div>
-
+                        <Card><a href="/Projects">
+                            <Card.Img variant="top" src={computercopy} className="porticons" alt="computer icon" />
+                            <Card.Body>
+                                <Card.Title><h5>projects</h5></Card.Title>
+                            </Card.Body>
+                        </a>
+                        </Card>
+                    </CardDeck>
+                </div>
+            </div>
     );
-
 }
 export default Portfolio;

@@ -1,5 +1,9 @@
+.projBackground {
+    background-color: white;
+}
+
 h1 {
-    font-size: 65px;
+    font-size: 55px;
     font-weight: 500;
     color: rgb(80, 80, 80);
     text-align: center;
@@ -13,7 +17,20 @@ h5 {
     font-family: 'Oswald', sans-serif;  
 }
 
-        
+/* .projicons {
+    display: block;
+} */
+
+.card-deck {
+    margin: 0px;
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+.row {
+    justify-content: center;
+}
+
 a:link {
     color: rgb(69, 70, 70);
 }       

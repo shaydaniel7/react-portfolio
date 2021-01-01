@@ -1,19 +1,18 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './About.css';
 
 
 function About () {
     return (
         <div class="aboutBackground">
-        <br /> <br /> <br /> <br />
+        <br /> <br /> <br /> 
         <h1>about</h1>
-        <br></br>
+        <br />
 
         <div class="container" />
             <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-10"><br></br>
+                <div class="col-md-2"></div>
+                <div class="col-md-8"><br></br>
                     <div class="aboutBox">
                         <p>My name is Shay Daniel and I am from Baton Rouge, Louisiana. I earned my degree in elementary
                             education from
@@ -27,7 +26,7 @@ function About () {
                                 Center</a> in San Bernardino. I enjoy photography, graphic design, hiking and being with my family.</p>
                     </div>
                 </div>
-                <div class="col-md-1"></div>
+                <div class="col-md-2"></div>
 
             
         </div>
