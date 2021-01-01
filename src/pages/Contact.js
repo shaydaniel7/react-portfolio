@@ -32,10 +32,10 @@ function Contact() {
 
                         <Button variant="secondary" type="submit">
                             submit
-                        </Button>
+                        </Button>{' '}
                         <Button variant="secondary" id="myBtn" type="myInfo">
                             my info
-                        </Button>
+                        </Button>{' '}
                     </Form>
                 </div>
                 <div class="col-md-3"></div>

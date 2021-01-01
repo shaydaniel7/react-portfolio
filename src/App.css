@@ -3,11 +3,6 @@
   margin: 0;
 }
 
-/* #root {
-  height: 100%;
-  box-sizing: border-box;
-} */
-
 .App {
   text-align: center;
 }
@@ -29,10 +24,9 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
+/* .App-link { 
+  color: #449eb8; 
+} */
 
 @keyframes App-logo-spin {
   from {
