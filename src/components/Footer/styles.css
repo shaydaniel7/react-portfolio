@@ -10,6 +10,26 @@
     bottom: 0;
     background-color: #ffffff;
     padding: 20px;
-
 }
 
+a {
+    text-decoration: none!important;
+  }
+
+  @media screen and (max-width: 825px) {
+    
+    .footer {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    padding: 20px;
+    }
+
+  }

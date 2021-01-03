@@ -5,13 +5,13 @@ import Footer from "../components/Footer";
 
 function Home() {
     return (
-        <div class="homeBackground">
+        <div className="homeBackground">
             <Navtabs />
-            <br /><br /><br /><br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br />
             <br />
             <div />
-            <h1>Shay Daniel</h1>
-            <p class="title">web development</p>
+            <h1 className="mainTitle">Shay Daniel</h1>
+            <p className="title">web development</p>
             <Footer />
         </div>
     );

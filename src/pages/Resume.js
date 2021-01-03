@@ -7,18 +7,16 @@ import Footer from "../components/Footer";
 function Resume() {
     return (
 
-        <div class="contactBackground">
+        <div className="contactBackground">
             
             <Navtabs />
             <br /><br /><br />
             <h1>resume</h1>
             <br />
-
             <ResumeBlock />
             <Footer />
-            
+           
         </div>
-
     );
 }
 

@@ -19,7 +19,6 @@ function Navtabs() {
         </Nav>       
       </Navbar.Collapse>
     </Navbar>
-
     );
 }
 

@@ -1,7 +1,7 @@
 .portBackground {
     background: url("../assets/images/desk3.png");
     background-repeat: no-repeat;
-    position: fixed;
+    position: absolute;
     top: 1;
     width: 100%;
     height: 100%;
@@ -50,6 +50,17 @@ a:active {
 }
 
 @media screen and (max-width: 1000px) {
+    
+    .portBackground {
+        background: url("../assets/images/desk4.png");
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 1;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
+    
     
     h5 {
         font-size: 17px;

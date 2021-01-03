@@ -3,12 +3,12 @@ import './styles.css';
 
 function Footer() {
     return (
-        <footer class="footer">
+        <footer className="footer">
 
-            <a href="http://linkedin.com/in/shaydaniel1" class='footerText'>  linkedIn </a> |
-            <a href="http://github.com/shaydaniel7" class='footerText'>  github </a> |
-            <a href="http://shaydaniel.com" class='footerText'>  graphic design  | </a>
-            <a href="mailto: shay@shaydaniel.com" class='footerText'>  email</a>
+            <a href="http://linkedin.com/in/shay-daniel" className='footerText'>linkedIn</a> |
+            <a href="http://github.com/shaydaniel7" className='footerText'> github</a> |
+            <a href="http://shaydaniel.com" className='footerText'> graphic design</a> | 
+            <a href="mailto: shay@shaydaniel.com" className='footerText'> email</a>
 
         </footer>
     );

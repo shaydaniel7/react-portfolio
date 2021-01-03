@@ -9,13 +9,13 @@ import Footer from "../components/Footer";
 
 function Portfolio() {
     return (
-        <div class="portBackground">
+        <div className="portBackground">
             <Navtabs />
 
             <br /><br /> <br />
             <h1>portfolio</h1>
             <br /><br />
-            <div class="row">
+            <div className="row">
 
                 <CardDeck>
                     <Card><a href="https://www.etsy.com/shop/ShayDaniel">
@@ -44,9 +44,11 @@ function Portfolio() {
                     </a>
                     </Card>
                 </CardDeck>
-            </div>
+            </div>      
+
             <Footer />
         </div>
+
     );
 }
 export default Portfolio;
