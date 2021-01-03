@@ -1,7 +1,7 @@
 # React Portfolio
 
 ### VIEW:
-View my updated React portfolio [here](https://insert-link-here "Link to updated portfolio").
+View my updated React portfolio [here](https://shaydaniel7.github.io/react-portfolio "Link to updated portfolio").
 
 ### USES:
 HTML, CSS, Javascript, Bootstrap, JSX, React.
