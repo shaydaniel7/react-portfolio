@@ -1,5 +1,5 @@
 .aboutBackground {
-    background: url("../assets/images/desk.png");
+    background: url("../assets/images/pantone.png");
     background-repeat: no-repeat;
     position: fixed;
     top: 1;
@@ -23,9 +23,9 @@ h1 {
     font-family: 'Oswald', sans-serif;   
 }
 
-p {
+.about {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     text-align: left;
 }
 

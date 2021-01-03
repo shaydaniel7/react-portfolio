@@ -18,6 +18,7 @@ h1 {
 .card-title {
     font-family: 'Oswald', sans-serif;   
     font-size: 24px;
+    text-align: left;
 }
 
 h5 {
@@ -34,7 +35,7 @@ h5 {
 .card-deck {
     margin: 0px;
     width: 70%;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .row {
@@ -43,16 +44,20 @@ h5 {
 
 .tech {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     text-align: left;
 }
 
 .btn.btn-secondary {
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
-    width: 40%;
+    width: 25%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+
   }
 
 a:link {
