@@ -12,8 +12,9 @@ function Resume() {
             <Navtabs />
             <br /><br /><br />
             <h1>resume</h1>
-            <br />
+            
             <ResumeBlock />
+           
             <Footer />
            
         </div>
