@@ -15,7 +15,9 @@ function Navtabs() {
         <Nav>
           <Nav.Link href="/Portfolio">portfolio</Nav.Link>
           <Nav.Link href="/About">about</Nav.Link>
-          <Nav.Link href="/Resume">resume</Nav.Link>
+          <Nav.Link href="https://drive.google.com/file/d/1M46az7g_5E_D4fAkchgApDl7N1K41d3a/view?usp=sharing">resume</Nav.Link>
+
+          {/* <Nav.Link href="/Resume">resume</Nav.Link> */}
         </Nav>       
       </Navbar.Collapse>
     </Navbar>
