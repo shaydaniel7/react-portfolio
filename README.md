@@ -1,7 +1,7 @@
 # React Portfolio
 
 ### VIEW:
-View my updated React portfolio [here](https://intense-spire-96483.herokuapp.com/ "Link to updated portfolio").
+View my updated React portfolio [here](https://shay-daniel-portfolio.herokuapp.com/ "Link to updated portfolio").
 
 ### USES:
 HTML, CSS, Javascript, Bootstrap, JSX, React.
