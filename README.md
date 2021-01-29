@@ -16,7 +16,7 @@ HTML, CSS, Javascript, Bootstrap, JSX, React.
 * View my online portfolio [here](http://www.shaydaniel.com "Link to online portfolio").  This is still under construction.
 
 ### Contact
-* shay@shaydaniel.com
+* [Email](shay@shaydaniel.com)
 * [LinkedIn](linkedin.com/in/shay-daniel-10b8b71ab "Link to LinkedIn page")
 * [Github](github.io/shaydaniel7 "Link to Github page")
 
